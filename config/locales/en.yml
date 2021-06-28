@@ -1,0 +1,15 @@
+en:
+  and: "and"
+  duration_strings:
+    second: "a second"
+    seconds: "%{seconds} seconds"
+    minute: "a minute"
+    minutes: "%{minutes} minutes"
+    hour: "a hour"
+    hours: "%{hours} hours"
+    day: "a day"
+    days: "%{days} days"
+    month: "a month"
+    months: "%{months} months"
+    year: "a year"
+    years: "%{years} years"
