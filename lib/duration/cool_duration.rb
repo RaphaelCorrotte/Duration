@@ -9,7 +9,9 @@ class CoolDuration
   attr_reader :duration_hash
 
   # @param [Integer] timestamp
-  def initialize(timestamp)
+  def initialize(timestamp, language: en)
+    I18n.locale = language
+
     seconds = Time.strptime(timestamp.to_s, "%s").to_i
     minutes, seconds_left, hours, minutes_left, days, hours_left, days_left, years = [0] * 8
 
@@ -67,7 +69,7 @@ class CoolDuration
                             :scope => "duration_strings",
                             :"#{element[element.size - 1] == "s" ? element : "#{element}s"}" => @duration_hash[:"#{element[element.size - 1] == "s" ? element : "#{element}s"}"][:left])
     end
-    return [valid.slice(0, valid.size - 1).join(", "), valid.slice(1)].join(" #{I18n.t(:and)} ") if valid.size > 1
+    return [valid.slice(0, valid.size - 1).join(", "), valid.slice(-1)].join(" #{I18n.t(:and)} ") if valid.size > 1
 
     valid.join("") if valid.size == 1
   end

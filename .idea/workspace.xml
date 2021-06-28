@@ -8,9 +8,12 @@
       <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active_rubydate.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/active_rubydate.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/fr.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/duration.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/duration.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/duration/cool_duration.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/duration/cool_duration.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/base.rb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/base.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624641244633</updated>
-      <workItem from="1624641246408" duration="19349000" />
+      <workItem from="1624641246408" duration="22056000" />
     </task>
     <servers />
   </component>
