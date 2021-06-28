@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_rubydate.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/active_rubydate.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/fr.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/duration.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/duration.rb" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624641244633</updated>
-      <workItem from="1624641246408" duration="19046000" />
+      <workItem from="1624641246408" duration="19349000" />
     </task>
     <servers />
   </component>
